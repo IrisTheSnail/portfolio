@@ -1,16 +1,16 @@
 export default function Header(){
     return (<div className="navBar">
                 <div className="header">
-                    <a href="hello" className="headings">
+                    <a href="#" className="headings">
                     <i className="kl3 fa-house fas"></i>
                     &ensp; Hello</a>
-                    <a href="path" className="headings" onClick={()=>{console.log("coo coo");}}>
+                    <a href="#path" className="headings" onClick={()=>{console.log("coo coo");}}>
                     <i className="kl3 fa-face-laugh-beam fas"></i>
                     &ensp; About me</a>
-                    <a href="skills" className="headings" >
+                    <a href="#skills" className="headings" >
                     <i className="kl3 fa-gears fas"/>
                     &ensp; Skills</a>
-                    <a href="projects" className="headings" >
+                    <a href="#projects" className="headings" >
                     <i className="kl3 fa-terminal fas"></i>
                     &ensp; Projects</a>
                     

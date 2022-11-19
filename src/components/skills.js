@@ -102,7 +102,7 @@ export default function Skills(){
                     <div className="ref">Bash</div>
                 </div>
 
-                <div className="chri7a">
+                <div className="chri7a" id="projects">
                     <i className="fa fa-git-alt	fab"></i>
                     <div className="bone"></div> 
                     <div className="ref">Git</div>

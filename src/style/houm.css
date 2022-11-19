@@ -4,11 +4,28 @@
     margin-top: 50px;
     margin-left: 40px;
     gap : 30px;
-    margin-bottom: 55px;    
+    /*margin-bottom: 55px;*/    
+}
+
+#path {
+    padding: 55px;
 }
 
 .cv {
     width : 310px;
+}
+
+@media screen and (max-width: 480px){
+    .mii{
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, auto);
+    }
+
+    .reverse {
+        
+        grid-row: 1; /* NEW */
+      }
 }
 
 .mii2 {

@@ -18,7 +18,7 @@ I look forward to get my degree in 2024.
             Apart from coding, there are a lot of activities I enjoy, such as :<br/>
             <i className="fa-compass far"></i>  -  travelling<br/>
             <i className="fa-gamepad fas"></i> - videogames<br/>
-            <i className="fa-chess fas"></i>  -  chess<br/>
+            <i className="fa-chess fas" id="skills"></i>  -  chess<br/>
             
             </div>
         </div>

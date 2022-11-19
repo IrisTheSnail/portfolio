@@ -8,4 +8,6 @@ a {
     text-decoration: none; 
 }
 
-
+.page h1.format-icon:before {
+    content: none;
+    }

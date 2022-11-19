@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 .navBar{
     background-color:/* #FFE7CC#E1CEB5*/#c5c5c5; /*#002E94*/
     width : 70vw; /*39l 39l*/
@@ -5,7 +10,7 @@
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    z-index: 5;
+    z-index: 20;
 
 }
 
