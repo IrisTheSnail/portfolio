@@ -18,6 +18,11 @@
     flex-direction: row;
     margin : 10px;
     align-items: center;
+    transition: background-color 1s;
+}
+
+.chri7a:hover{
+    background-color: #e4e4e4;
 }
 
 .bone{

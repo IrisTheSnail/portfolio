@@ -2,21 +2,57 @@
     justify-content: center;
 }
 
+.projicts {
+    margin-bottom: 10px;
+}
+
 .tmra {
     display: flex;
     flex-direction: column;
+    width: 300px;
     margin : 10px;
     align-items: center;
     border: 5px solid rgb(68, 68, 68);
     border-radius: 5px;
     padding : 10px;
+    transition: background-color 1s;
+    
+} 
+
+.tmra:hover {
+    background-color: #e4e4e4;
+  }
+
+.projflex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction : row;
+    justify-content: space-evenly;
+    
 }
 
 .proj-title  {
     font-size: 22px;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.a3dma {
+    
+    width : 100%;
+    height : 3px;
+    border-radius: 100%;
+    background-color: rgb(204, 204, 204);
 }
 
 .fortran {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.saghiron {
+    font-size : smaller ;
+    margin-bottom: 5px;
 }
